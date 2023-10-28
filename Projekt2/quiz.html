@@ -11,16 +11,42 @@
         <h1>Quiz z podstaw HTML/CSS</h1>
         <div class="question">
             <p></p>
-            <div class="options">
-                <!-- <label><input type="radio" name="q1" value="a"> a) Hyper Text Makeup Language</label>
-                <label><input type="radio" name="q1" value="b"> b) Hyper Text Markup Language</label>
-                <label><input type="radio" name="q1" value="c"> c) Hyper Transfer Markup Language</label>
-                <label><input type="radio" name="q1" value="d"> d) Hyperlink Text Markup Language</label> -->
-            </div>
-        </div>
+            <h3> Co oznacza HTTP?</h3>
+            <div class="question">
+                <h3>What is the meaning of HTML?</h3>
+                <div class="options">
+                  <label><input type="radio" name="q1" value="a"> a) Hyper Text Makeup Language</label>
+                  <label><input type="radio" name="q1" value="b"> b) Hyper Text Markup Language</label>
+                  <label><input type="radio" name="q1" value="c"> c) Hyper Transfer Markup Language</label>
+                  <label><input type="radio" name="q1" value="d"> d) Hyperlink Text Markup Language</label>
+                </div>
+              </div>
+              
+              <div class="question">
+                <h3>What does CSS stand for?</h3>
+                <div class="options">
+                  <label><input type="radio" name="q2" value="a"> a) Cascading Style Sheets</label>
+                  <label><input type="radio" name="q2" value="b"> b) Coding Style Sheets</label>
+                  <label><input type="radio" name="q2" value="c"> c) Cascading Stylisation Sheets</label>
+                  <label><input type="radio" name="q2" value="d"> d) Cascading Style Script</label>
+                </div>
+              </div>
+              
+              <div class="question">
+                <h3>What does 'display: none' do in CSS?</h3>
+                <div class="options">
+                  <label><input type="radio" name="q3" value="a"> a) Hides the element, but keeps it in the page flow</label>
+                  <label><input type="radio" name="q3" value="b"> b) Removes the element and its space from the page flow</label>
+                  <label><input type="radio" name="q3" value="c"> c) Changes the element's color to transparent</label>
+                  <label><input type="radio" name="q3" value="d"> d) Increases the element's size to fill the screen</label>
+                </div>
+              </div>
+              
         <!-- Dodaj kolejne pytania analogicznie -->
 
-        <button onclick="nextQuestion()">Sprawdź odpowiedzi</button>
+        <!-- <button onclick="checkAnswers()">Sprawdź odpowiedzi</button>    Nie wiem,czemu to nie działa. Ale nie działa-->
+        <button onclick="checkAnswers()">Sprawdź odpowiedzi</button>
+        
         <div id="results"></div>
     </div>
 
