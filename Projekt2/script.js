@@ -20,6 +20,18 @@ const pytania = `{
             ]
             "poprawna": [ 1 ]
         }
+        {
+            "tekst": "Co robi 'display: none' w CSS?",
+            "odpowiedzi": [
+                "Ukrywa element, ale zajmuje miejsce na stronie",
+                "Usuwa element i jego miejsce na stronie",
+                "Zmienia kolor elementu na przezroczysty",
+                "Zwiększa wielkość elementu do pełnego ekranu"
+            ],
+            "poprawna": [1]
+        }
+
+
     ],
 }`
 const nrPytania = 0
@@ -38,7 +50,8 @@ function nextQuestion() {
 function checkAnswers() {
     const answers = {
         q1: 'b', // Poprawna odpowiedź dla pytania 1
-        // Dodaj kolejne odpowiedzi
+        q2: 'a',
+        q3: 'a'
     };
 
     let correctCount = 0
