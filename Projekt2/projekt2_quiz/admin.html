@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Quizz HTML</title>
+</head>
+<body>
+    <h1>Zaloguj się aby edytować bazę pytań</h1>
+    <div class="panel">
+    
+    <ul>
+        <li><a class="active" href="./">Home</a></li>
+        <li><a href="./user.html">User</a></li>
+        <li><a href="./admin.html">Admin</a></li>
+        
+      </ul>
+    
+
+   
+    <form id="loginForm">
+        <label for="login">Login:</label>
+        <input type="text" id="login" name="login" required><br>
+
+        <label for="password">Hasło:</label>
+        <input type="password" id="password" name="password" required><br>
+
+        <button type="button" onclick="checkLogin()">Zaloguj</button>
+    </form>
+
+    <p id="message"></p>
+<!-- skrypt w js ustwiajacy dane logowania dla admian -->
+    <script>
+        function checkLogin() {
+            var login = document.getElementById("login").value;
+            var password = document.getElementById("password").value;
+                //dane do logowania to l:admin p:admin1
+            if (login === "admin" && password === "admin1") {
+                document.getElementById("message").textContent = "Logowanie udane!";
+                
+                window.location.href = "./choice.html";
+            } else {
+                document.getElementById("message").textContent = "Błąd logowania. Spróbuj ponownie.";
+            }
+        }
+    </script></div>
+</body>
+</html>

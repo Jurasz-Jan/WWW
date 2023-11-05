@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body {
+  background-image: linear-gradient(225deg, rgba(25, 136, 247, 0.21) 0%, rgba(247, 25, 136, 0.18) 100%);
+ background-attachment: fixed;
+  font-family: 'Roboto';
+  color: #000000;
+  max-width: 960px;
+  margin: 100px auto;
+  padding: 10px;
+  float: none;
+  align-items: center; 
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+nav h1 {
+  margin: 0;
+}
+.welcome {
+  margin: 100px auto;
+  
+}
+.welcome a {
+  color: white;
+  text-decoration: none;
+  background: #9035d5;
+  padding: 10px;
+  border-radius: 10px;
+ position: relative;
+ top: 100px;
+ justify-content: space-between;
+ margin-right: 60px;
+ margin-left: 60px
+ 
+  
+}
+
+.welcome a:hover {
+  background-color: #6c299e;
+
+}
+form {
+  max-width: 500px;
+  justify-content: space-between;
+  text-align: center;
+  margin: 100px auto;
+}
+.welcome {
+  text-align: center;
+
+}
+input, textarea {
+  display: block;
+  margin: 16px 0;
+  padding: 6px 10px;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-family: 'Roboto';
+}
+textarea {
+  min-height:200px;
+}
+
+.panel {
+  margin: 0px;
+  padding: 10px;
+  max-width: 960px;
+  min-height: 700px;
+  max-height: 10000px;
+  background-color: #ffffff42;
+  float:none;
+
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+
+.user.highlight {
+  background-color: rgb(141, 214, 129);
+}
+
+div.answers label { 
+  display: flex; 
+  align-items: center; 
+  margin: 10px; }
+
+div.answers input { 
+  margin-right: 5px; 
+  width: 20px; 
+  height: 20px; }
+  
+
+  .question {
+    background-color: #e6c6fe2a;
+    border-radius: 10px;
+  }
+
+
+button {
+  color: white;
+  text-decoration: none;
+  background: #9035d5;
+  padding: 10px;
+  border-radius: 10px;
+ position: relative;
+
+ justify-content: space-between;
+ margin-right: 60px;
+ margin-left: 60px;
+ border: none !important;
+} 
+
+button:hover{
+  background-color: #6c299e;
+} 
+
+.users {
+  margin-left: 40px;
+}

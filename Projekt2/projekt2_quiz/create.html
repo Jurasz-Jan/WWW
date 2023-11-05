@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Quizz HTML</title>
+</head>
+<body>
+  <div class="panel">
+  <h1>Dodaj nowe pytanie</h1>
+  <ul>
+    <li><a class="active" href="./">Home</a></li>
+    <li><a href="./user.html">Quizz</a></li>
+    <li><a href="./admin.html">Admin</a></li>
+  </ul>
+
+  <form>
+    <textarea name="question" required placeholder="Pytanie"></textarea>
+    <input type="text" name="A" required placeholder="Odpowiedz A">
+    <input type="checkbox" name="chA" value="A">
+    <input type="text" name="B" required placeholder="Odpowiedz B">
+    <input type="checkbox" name="chB" value="B"> 
+    <input type="text" name="C" required placeholder="Odpowiedz C">
+    <input type="checkbox" name="chC" value="C"> 
+   
+    <button name="buttonn">Create</button>
+  </form>
+ <script src="js/create.js"></script>
+  <script>
+    // Obsługa zaznaczania tylko jednego checkboxa
+    const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+    checkboxes.forEach(checkbox => {
+      checkbox.addEventListener('change', function() {
+        checkboxes.forEach(cb => {
+          if (cb !== this) {
+            cb.checked = false;
+          }
+        });
+      });
+    });
+  </script>
+</div></body>
+</html>

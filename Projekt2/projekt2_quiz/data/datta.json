@@ -1,0 +1,151 @@
+{
+  "users": [
+    {
+      "score": 2,
+      "username": "kurak",
+      "id": 1
+    },
+    {
+      "score": 5,
+      "username": "marta",
+      "id": 2
+    },
+    {
+      "score": 0,
+      "username": "nie_mam_pomyslu_na_nick",
+      "id": 3
+    },
+    {
+      "score": 7,
+      "username": "robocop",
+      "id": 4
+    },
+    {
+      "username": "ii",
+      "score": 0,
+      "id": 5
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "question": "Jakie jest pełne znaczenie skrótu 'HTML'?",
+      "answerA": "Hiper Tekst Markup Language",
+      "answerB": "Highly Technical Markup Language",
+      "answerC": "Hyperlink and Text Markup Language",
+      "correct": "a"
+    },
+    {
+      "id": 2,
+      "question": "Jaki jest główny cel CSS?",
+      "answerA": "Definiowanie struktury strony",
+      "answerB": "Rozwijanie funkcji strony",
+      "answerC": "Stylizowanie prezentacji strony",
+      "correct": "c"
+    },
+    {
+      "id": 3,
+      "question": "Który atrybut HTML służy do łączenia zewnętrznego pliku CSS?",
+      "answerA": "src",
+      "answerB": "style",
+      "answerC": "link",
+      "correct": "c"
+    },
+    {
+      "id": 4,
+      "question": "Co oznacza litera 'C' w CSS?",
+      "answerA": "Kaskadowy",
+      "answerB": "Kodowanie",
+      "answerC": "Komputerowy",
+      "correct": "a"
+    },
+    {
+      "id": 5,
+      "question": "Która właściwość CSS zmienia kolor tekstu elementu?",
+      "answerA": "font-style",
+      "answerB": "color",
+      "answerC": "text-transform",
+      "correct": "b"
+    },
+    {
+      "id": 6,
+      "question": "Jaki jest cel znacznika HTML <div>?",
+      "answerA": "Tworzenie łącza",
+      "answerB": "Grupowanie i stylizacja treści",
+      "answerC": "Wyświetlanie obrazu",
+      "correct": "b"
+    },
+    {
+      "id": 7,
+      "question": "Która właściwość CSS dodaje odstępy między elementami?",
+      "answerA": "padding",
+      "answerB": "margin",
+      "answerC": "border",
+      "correct": "a"
+    },
+    {
+      "id": 8,
+      "question": "Jaki jest prawidłowy sposób komentowania kodu w HTML?",
+      "answerA": "To jest komentarz",
+      "answerB": "// To jest komentarz",
+      "answerC": "/* To jest komentarz */",
+      "correct": "c"
+    },
+    {
+      "id": 9,
+      "question": "Który selektor CSS wybiera elementy o konkretnej klasie?",
+      "answerA": "#element",
+      "answerB": ".element",
+      "answerC": "&element",
+      "correct": "b"
+    },
+    {
+      "id": 10,
+      "question": "Jaki jest domyślny sposób wyświetlania znacznika HTML <a> (łącza)?",
+      "answerA": "block",
+      "answerB": "inline",
+      "answerC": "inline-block",
+      "correct": "b"
+    },
+    {
+      "id": 11,
+      "question": "Który znacznik HTML tworzy listę numerowaną?",
+      "answerA": "ul",
+      "answerB": "li",
+      "answerC": "ol",
+      "correct": "c"
+    },
+    {
+      "id": 12,
+      "question": "Czym jest specyficzność CSS?",
+      "answerA": "Kolejnością zastosowania reguł CSS",
+      "answerB": "Ważnością reguły CSS",
+      "answerC": "Poziomem szczegółowości reguły CSS",
+      "correct": "c"
+    },
+    {
+      "id": 13,
+      "question": "Czym jest 'model pudełka' (box model) w CSS?",
+      "answerA": "Sposobem tworzenia projektu responsywnego",
+      "answerB": "Układem elementów HTML w siatkę",
+      "answerC": "Strukturą i odstępami elementów w kontenerze",
+      "correct": "c"
+    },
+    {
+      "id": 14,
+      "question": "Który znacznik HTML osadza wideo na stronie internetowej?",
+      "answerA": "Obraz",
+      "answerB": "Wideo",
+      "answerC": "Audio",
+      "correct": "b"
+    },
+    {
+      "id": 15,
+      "question": "W CSS, do czego służy właściwość 'float'?",
+      "answerA": "Dodawania obrazu tła do elementu",
+      "answerB": "Usuwania elementu z przepływu dokumentu i pozycjonowania go względem innych elementów",
+      "answerC": "Zmiany koloru tła elementu",
+      "correct": "b"
+    }
+  ]
+}
